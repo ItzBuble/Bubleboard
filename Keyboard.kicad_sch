@@ -302,22 +302,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "BT1"
+				(at -3.81 0.5714 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+				(at -3.81 3.1114 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -429,7 +429,7 @@
 				)
 			)
 			(symbol "Battery_Cell_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "+"
@@ -447,7 +447,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "-"
@@ -5427,10 +5427,10 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "e7b30649-f127-410c-aaaa-3b5afd9adef1")
-		(property "Reference" "BT2"
+		(property "Reference" "BT1"
 			(at 200.66 98.3614 0)
 			(effects
 				(font
@@ -5484,7 +5484,7 @@
 		(instances
 			(project ""
 				(path "/196ff9a7-f83d-4312-a11a-1b8b06a0fc5c"
-					(reference "BT2")
+					(reference "BT1")
 					(unit 1)
 				)
 			)
