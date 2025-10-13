@@ -3,3 +3,4 @@ fp-info-cache
 Keyboard-backups/
 fabrication-toolkit-options.json
 production/
+*.lck
