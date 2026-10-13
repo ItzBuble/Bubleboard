@@ -1,5 +1,7 @@
 # Bubleboard
 
+![Finished Bubleboard keyboard](images/keyboard-finished.jpg)
+
 A custom full-size (104-key) mechanical keyboard with a hand-designed PCB, a rotary encoder, an e-ink display and [ZMK](https://zmk.dev) firmware. It was built as my graduation project (maturitní práce) at SPŠ a OA Uherský Brod, field Mechanik elektrotechnik, 2026.
 
 ## Features
